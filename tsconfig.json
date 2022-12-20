@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "module": "CommonJS",
+        "noImplicitAny": false,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "target": "ESNext",
+        "lib": ["es2015", "dom"],
+        "outDir": "./dist",
+        "noUnusedLocals": true,
+        "noImplicitReturns": true,
+        "noImplicitThis": true,
+        "noUnusedParameters": false,
+        "pretty": true,
+        "noFallthroughCasesInSwitch": true,
+        "allowUnreachableCode": false,
+        "esModuleInterop": true,
+        
+    },
+    "include": [
+      "src",
+    ]
+}
